@@ -1,4 +1,2 @@
-# Elseco Test Project
-# Laatste update 18-08-2017
-
-# Online copy van testproject
+# Elseco Project
+# Laatste update 04-09-2017

@@ -1,9 +1,3 @@
 ramdisk.d
 data.d
 .bash_history
-.bash_logout
-.bashrc
-.gitconfig
-.profile
-.selected_editor
-
