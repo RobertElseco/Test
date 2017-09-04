@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sudo sh -c 'echo 132 > /sys/class/gpio/export'
+sudo sh -c 'echo 133 > /sys/class/gpio/export'

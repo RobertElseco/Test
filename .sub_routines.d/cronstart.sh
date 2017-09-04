@@ -1,0 +1,1 @@
+* * * * *  /home/elseco/startcron.sh

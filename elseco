@@ -1,0 +1,18 @@
+# Bestand welke bij booten automatisch gestart wordt
+
+#!/bin/sh
+
+clear
+
+echo -n "Opstarten"; sleep .1
+echo -n "."; sleep .1
+echo -n "."; sleep .1
+echo -n "."; sleep .1
+echo -n "."; sleep .1
+echo -n "."; sleep .1
+echo -n "."; sleep .1
+echo -n "."; sleep .1
+echo -n "."; sleep .1
+echo "."; sleep .1
+
+elseco.sh
