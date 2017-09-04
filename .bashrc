@@ -111,3 +111,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Custom toevoeging commando's
+
+alias sub='cd ~/.sub_routines.d'
+alias tools='cd ~/.tools.d'
