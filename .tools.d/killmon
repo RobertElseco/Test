@@ -2,3 +2,5 @@
 
 pkill -9 -e -f monitoring1.sh > /dev/null
 pkill -9 -e -f monitoring2.sh > /dev/null
+pkill -9 -e -f monitoring3.sh > /dev/null
+

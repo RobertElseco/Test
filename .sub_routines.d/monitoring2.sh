@@ -1,10 +1,11 @@
 #!/bin/bash
 
 # Communicatie naar callcenter door middel van input GPIO #133
+# Funtie Storingscontact monitoren
+# RBo 07-09-2017
 
 # sudo sh -c 'echo 133 > /sys/class/gpio/export'
 # while ( true ); do cat /sys/class/gpio/gpio132/value; sleep 1; done;
-# curl -v -X POST -u 'xxxxx.xxxxx@xxxxx.xxx:xxxxxxxx' https://xxx.xxxxx.xxx/api/v1/receivers/xxxxxxxx/messages/?type=emergency
 
 
 storingscontact=1

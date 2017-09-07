@@ -2,27 +2,24 @@
 
 stops=0
 
-for line in `cat ~/dbg-tabel | grep -v ^#`; do
+for line in `cat ~/data.d/bg-tabel | grep -v ^#`; do
 
 ((stops+=1))
 
 IFS=-
 set $line
-((dec=$1))
-((bin=$2))
-((gray=$3))
+((stoppl=$1))
+((waarde=$2))
 
-((dec$stops=$dec))
-((bin$stops=$bin))
-((gray$stops=$gray))
+((stoppl$stops=$stoppl))
+((waarde$stops=$waarde))
 
 done
 
 for (( i=1; i<$stops+1; i++ ));
 do
-	eval dec=( \${dec$i} )
-        eval bin=( \${bin$i} )
-        eval gray=( \${gray$i} )
-	echo "$dec Decimaal, is $bin Binair en $gray Graycode"
+	eval stoppl=( \${stoppl$i} )
+        eval waarde=( \${waarde$i} )
+	echo "Stopplaats $stoppl, is waarde $waarde"
 done
 

@@ -47,7 +47,7 @@ then
   else
     echo $nieuwid > /$data/id.device
     idcode=$(</$data/id.device)
-  B  echo; echo
+    echo; echo
     echo -n "Nieuw ID-nummer is: $idcode "; sleep .5
     echo -n "."; sleep .5
     echo -n "."; sleep .5
@@ -57,7 +57,7 @@ then
 
   fi
 
-Belse
+else
   echo; echo
   echo "ID-code nog niet ingevuld."
   echo

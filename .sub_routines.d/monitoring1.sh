@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Communicatie naar callcenter door middel van input GPIO #132
-# RBo 17-08-2017
+# Functie Alarm drukknop monitoren
+# RBo 07-09-2017
 
 # sudo sh -c 'echo 132 > /sys/class/gpio/export'
 # while ( true ); do cat /sys/class/gpio/gpio132/value; sleep 1; done;
-# curl -v -X POST -u 'xxxxx.xxxxx@xxxxx.xxx:xxxxxxxx' https://xxx.xxxxx.xxx/api/v1/receivers/xxxxxxxx/messages/?type=emergency
 # curl -X POST -u $curl_naam:$curl_ww $https_adres/$idcode/messages/?type=emergency
 
 # Tijdinstellingen
