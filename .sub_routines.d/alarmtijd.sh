@@ -2,11 +2,11 @@
 
 # Aanvulling alarm.json tbv start/stop tijd alarmoproep
 
-# data=home/elseco/data.d
+# ramdisk=home/elseco/ramdisk.d
 
-# starta==$(</$data/starta)
-# stop==$(</$data/stop)
-# alarmduur==$(</$data/alarmduur)
+# starta==$(</$ramdisk/starta)
+# stop==$(</$ramdisk/stop)
+# alarmduur==$(</$ramdisk/alarmduur)
 starta="23:12:16"
 stopa="23:13:39"
 alarmduur="00:01:23"
