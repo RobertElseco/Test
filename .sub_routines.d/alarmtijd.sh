@@ -1,6 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 
-# Aanvulling alarm.json tbv start/stop tijd alarmoproep
+# Funtie Wegschrijven start-/stoptijd en tijdsduur alarmoproep naar alarm.json
+# RBo 14-09-2017
 
 # ramdisk=home/elseco/ramdisk.d
 
