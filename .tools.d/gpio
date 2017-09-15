@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Definitie GPIO 132-139 tav monitoring
+# RBo 14-09-2017
+
 sudo sh -c 'echo 132 > /sys/class/gpio/export'
 sudo sh -c 'echo 133 > /sys/class/gpio/export'
 sudo sh -c 'echo 134 > /sys/class/gpio/export'
