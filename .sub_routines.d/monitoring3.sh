@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Communicatie naar callcenter door middel van input GPIO #134/135
-# Funtie Gespreksstatus monitoren
+# Funtie Gespreksstatus monitoren dmv terugmelding VoIP unit
 # RBo 14-09-2017
 
 
