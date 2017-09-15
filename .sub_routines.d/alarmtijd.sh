@@ -2,6 +2,9 @@
 
 # Aanvulling alarm.json tbv start/stop tijd alarmoproep
 
+# starta==$(</$data/starta)
+# stop==$(</$data/stop)
+# alarmduur==$(</$data/alarmduur)
 starta="23:12:16"
 stopa="23:13:39"
 alarmduur="00:01:23"
