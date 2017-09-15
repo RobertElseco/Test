@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 sudo sh -c 'echo 132 > /sys/class/gpio/export'
 sudo sh -c 'echo 133 > /sys/class/gpio/export'
@@ -8,4 +8,3 @@ sudo sh -c 'echo 136 > /sys/class/gpio/export'
 sudo sh -c 'echo 137 > /sys/class/gpio/export'
 sudo sh -c 'echo 138 > /sys/class/gpio/export'
 sudo sh -c 'echo 139 > /sys/class/gpio/export'
-
