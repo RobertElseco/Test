@@ -2,6 +2,8 @@
 
 # Aanvulling alarm.json tbv start/stop tijd alarmoproep
 
+# data=home/elseco/data.d
+
 # starta==$(</$data/starta)
 # stop==$(</$data/stop)
 # alarmduur==$(</$data/alarmduur)
